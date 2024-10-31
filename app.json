@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "nativeApp",
-    "slug": "nativeApp",
+    "name": "Calculator",
+    "slug": "Calculator",
     "version": "1.0.0",
+    "scheme": "Calculator",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,10 +19,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.codeboy16.Calculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3123c97c-a87c-4287-a7cc-f5e28018f272"
+      }
     }
   }
 }
